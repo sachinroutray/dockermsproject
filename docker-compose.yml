@@ -13,13 +13,13 @@ services:
       - 82:80
     deploy:
       replicas: 3
-  recharge:
+  dth:
     image: sachinroutray22/dthpaytm:latest
     ports:
       - 83:80
     deploy:
       replicas: 3
-  dth:
+  recharge:
     image: sachinroutray22/rechargepaytm:latest
     ports:
       - 84:80
